@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+
+:root{
+--font01: whitney, sans-serif, Arial, 'aral Narrow';
+--color01: #23272A;
+}
+*{
+    margin: 0px;
+}
+header{
+    background-color: #404eedbd;
+
+}
+header > nav{
+    display: flex;
+    padding: 20px;
+}
+header > nav > img{
+    width: 124px;
+    margin-bottom: 40px;
+}
+#butom-entrar{
+    position: relative;
+    left: 200px;
+}
+#butom-entrar > a{
+    color: white;
+}
+#bloco0 > img{
+    width: 400px;
+}
