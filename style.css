@@ -36,12 +36,18 @@ header > nav > img{
     padding: 9px 17px;
     border-radius: 20px;
 }
+#butom-entrar > a:hover{
+    color: #404eed;
+    transition: 0.2s;
+}
 #bloco0{
     margin-left: 20px;
     width: 400px;
 }
 #bloco0 > img{
-    width: 400px;
+    width: 470px;
+    margin-top: 70px;
+    margin-left: -100px;
 }
 #bloco0 > h2{
     color: white;
@@ -57,7 +63,7 @@ header > nav > img{
     margin-bottom: 35px;
     line-height: 1.5em;
 }
-#bloco0 > #buttom-01 > a, #buttom-02 > a{
+#container01 > #buttom-01 > a, #buttom-02 > a{
     text-decoration: none;
     font-family: var(--font01);
     font-weight: 800;
@@ -66,21 +72,144 @@ header > nav > img{
 #buttom-01{
     margin-bottom: 50px;
 }
+
 #buttom-01 > a{
     background-color: white;
     color: var(--color01);
     padding: 14px 32px;
     border-radius: 30px;
+    transition: color 0.2s;
 }
+#buttom-01 > a:hover{
+    color: #404eed;
+}
+
 .material-symbols-outlined{
     color: var(--color01);
     position: relative;
     top: 4px;
     margin-right: 6px;
+    transition: color 0.2s;
 }
 #buttom-02 > a{
     color: white;
     background-color: #23272A;
     padding: 16px 32px;
     border-radius: 30px;
+
+}
+#buttom-02 > a:hover{
+    background-color: rgba(0, 0, 0, 0.849);
+    transition: 0.2s;
+}
+/*BLOCO-01 configurações*/
+/*----------------------*/
+#bloco1 > img{
+    width: 470px;
+    margin-top: 90px;
+}
+#bloco1{
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+#bloco1 > h2{
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 25px;
+}
+#bloco1 > p{
+    font-family: var(--font01);
+    font-weight: 100;
+    margin-bottom: 35px;
+    line-height: 1.5em;
+    width: 95%;
+}
+/*BLOCO-02 configurações*/
+/*---------------------*/
+#bloco2 > img{
+    width: 470px;
+    margin-top: 40px;
+}
+#bloco2{
+    margin-left: 20px;
+    margin-bottom: 70px;
+}
+#bloco2 > h2{
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 25px;
+}
+#bloco2 > p{
+    font-family: var(--font01);
+    font-weight: 100;
+    margin-bottom: 35px;
+    line-height: 1.5em;
+    width: 95%;
+}
+/*BLOCO-03 configurações*/
+/*---------------------*/
+#bloco3 > img{
+    width: 470px;
+    margin-top: 20px;
+}
+#bloco3{
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+#bloco3 > h2{
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 25px;
+}
+#bloco3 > p{
+    font-family: var(--font01);
+    font-weight: 100;
+    margin-bottom: 35px;
+    line-height: 1.5em;
+    width: 95%;
+}
+/*BLOCO-04 configurações*/
+/*----------------------*/
+#bloco4 > img{
+    width: 470px;
+    margin-top: 20px;
+}
+#bloco4{
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+#bloco4 > h2{
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 25px;
+}
+#bloco4 > p{
+    font-family: var(--font01);
+    font-weight: 100;
+    margin-bottom: 5px;
+    line-height: 1.5em;
+    width: 95%;
+}
+/*BLOCO-05 configurações*/
+/*---------------------*/
+#bloco5{
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+#bloco5 > h1{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+#bloco5 > a{
+    background-color: #404eed;
+    padding: 16px 32px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: var(--font01);
+    font-weight: 800;
+    font-size: 20px;
+}
+#b5{
+    color: white;
+}
+#bloco5 > a:hover{
+    transition: 0.2s;
+    background-color: #404eed7e;
 }
