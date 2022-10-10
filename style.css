@@ -41,8 +41,7 @@ header > nav > img{
     transition: 0.2s;
 }
 #bloco0{
-    margin-left: 20px;
-    width: 400px;
+    padding-left: 20px;
 }
 #bloco0 > img{
     width: 470px;
@@ -109,8 +108,9 @@ header > nav > img{
     margin-top: 90px;
 }
 #bloco1{
-    margin-left: 20px;
+    padding-left: 20px;
     margin-bottom: 50px;
+
 }
 #bloco1 > h2{
     font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -130,7 +130,7 @@ header > nav > img{
     margin-top: 40px;
 }
 #bloco2{
-    margin-left: 20px;
+    padding-left: 20px;
     margin-bottom: 70px;
 }
 #bloco2 > h2{
@@ -151,7 +151,7 @@ header > nav > img{
     margin-top: 20px;
 }
 #bloco3{
-    margin-left: 20px;
+    padding-left: 20px;
     margin-bottom: 100px;
 }
 #bloco3 > h2{
@@ -172,8 +172,9 @@ header > nav > img{
     margin-top: 20px;
 }
 #bloco4{
-    margin-left: 20px;
+    padding-left: 20px;
     margin-bottom: 100px;
+    
 }
 #bloco4 > h2{
     font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -189,7 +190,7 @@ header > nav > img{
 /*BLOCO-05 configurações*/
 /*---------------------*/
 #bloco5{
-    margin-left: 20px;
+    padding-left: 20px;
     margin-bottom: 60px;
 }
 #bloco5 > h1{
@@ -251,7 +252,7 @@ ul > li{
     background-color: #404eed7e;
 }
 #bloco6{
-    margin-left: 20px;
+    padding-left: 20px;
 }
 #bloco6 > h2{
     font-size: 32px;
