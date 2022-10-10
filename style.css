@@ -24,7 +24,7 @@ header > nav > img{
 #butom-entrar{
     display: block;
     position: relative;
-    left: 55%;
+    left: 50%;
 }
 #butom-entrar > a{
     color: var(--color01);
@@ -105,7 +105,7 @@ header > nav > img{
 /*BLOCO-01 configurações*/
 /*----------------------*/
 #bloco1 > img{
-    width: 470px;
+    width: 380px;
     margin-top: 90px;
 }
 #bloco1{
@@ -126,7 +126,7 @@ header > nav > img{
 /*BLOCO-02 configurações*/
 /*---------------------*/
 #bloco2 > img{
-    width: 470px;
+    width: 380px;
     margin-top: 40px;
 }
 #bloco2{
@@ -147,7 +147,7 @@ header > nav > img{
 /*BLOCO-03 configurações*/
 /*---------------------*/
 #bloco3 > img{
-    width: 470px;
+    width: 380px;
     margin-top: 20px;
 }
 #bloco3{
@@ -168,7 +168,7 @@ header > nav > img{
 /*BLOCO-04 configurações*/
 /*----------------------*/
 #bloco4 > img{
-    width: 470px;
+    width: 380px;
     margin-top: 20px;
 }
 #bloco4{
@@ -194,6 +194,7 @@ header > nav > img{
 }
 #bloco5 > h1{
     font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-bottom: 40px;
 }
 #bloco5 > a{
@@ -206,10 +207,84 @@ header > nav > img{
     font-weight: 800;
     font-size: 20px;
 }
+/*BLOCO 6 e FOOTER configurações*/
+footer{
+    background-color: #23272A;
+    font-family: var(--font01);
+    font-weight: 200;
+    font-size: 16px;
+
+}
+#blocofooter{
+    border-bottom: 1px solid #404eed;
+}
+footer > section#blocofooter > #coluns > ul > li > a{
+    text-decoration: none;
+    color: white;
+    line-height: 1.8em;
+}
+footer > section#blocofooter > #coluns > ul > li > a:hover{
+    text-decoration: underline;
+}
+footer > section#blocofooter > #coluns > ul > li > p{
+    color: #404eed;
+    margin-bottom: 15px;
+}
+ul > li{
+    list-style: none;
+}
+#coluns{
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+.coluns1{
+    margin-top: 50px;
+    width: 35%;
+}
 #b5{
     color: white;
 }
 #bloco5 > a:hover{
     transition: 0.2s;
     background-color: #404eed7e;
+}
+#bloco6{
+    margin-left: 20px;
+}
+#bloco6 > h2{
+    font-size: 32px;
+    font-weight: 800;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #404eed;
+    padding-top: 60px;
+}
+#twiiter{
+    width: 20px;
+}
+#end{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 80px;
+}
+#end > img{
+    width: 128px;
+}
+#end > a{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    background-color: #404eed;
+    padding: 7px 16px;
+    border-radius: 20px;
+}
+#Langs{
+    color: white;
+    background-color: #23272A;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
