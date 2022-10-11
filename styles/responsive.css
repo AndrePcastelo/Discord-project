@@ -47,10 +47,10 @@
         display: none;
     }
     #buttom-02{
-        display: none;
+        display: block;
     }
     #butom-entrar{
-        display: none;
+        display: block;
     }
     #bloco0 > img{
         width: 100%;
@@ -73,14 +73,26 @@
     nav > a{
         display: none;
     }
+    #container01{
+        display: flex;
+    
+    }
     #buttom-02{
-        display: none;
+        margin-left: 2px;
+        padding-left: 10px;
+        padding-top: 3px;
     }
     #butom-entrar{
-        display: none;
+        display: block;
     }
     #bloco0 > img{
         width: 100%;
+    }
+    #bloco0 > p, h2{
+        width: 50%;
+    }
+    #bloco0 > h2{
+        font-size: 4em;
     }
     #bloco1, #bloco3{
         display: flex;
@@ -120,4 +132,94 @@
         text-align: center;
     }
 }
+@media screen and (min-width:1024px){
+    nav{
+        display: flex;
+        justify-content: center;
         
+    }
+    nav > a{
+        width: 100px;
+        padding-left: 10px;
+        margin: -7px;
+        padding-top: 18px;
+        color: white;
+        text-decoration: none;
+        font-family: whitney, sans-serif, Arial, 'aral Narrow';
+        font-weight: 800;
+    }
+    nav > img{
+        position: relative;
+        right: 10vw;
+    }
+    
+    #container01{
+        display: flex;
+        position: relative;
+        top: 10px;
+        left: 340px;
+    }
+    
+    #butom-entrar > a{
+        display: block;
+        position: relative;
+        right: 34vw;
+    }
+    #buttom-02{
+        margin-left: 2px;
+        padding-left: 10px;
+        padding-top: 4px;
+    }
+    #bloco0 > h2{
+        text-align: center;
+        font-size: 4em;
+        width: 32%;
+        position: relative;
+        left: 32%;
+        top: 17px;
+    }
+    #bloco0 > p{
+        text-align: center;
+        width: 54%;
+        position: relative;
+        left: 300px;
+        font-size: 1.2em;
+    }
+    #bloco1, #bloco3{
+        display: flex;
+    }
+    #bloco2{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #bloco2{
+        margin-top: 80px;
+        margin-bottom: 160px;
+    }
+    #bloco11{
+        width: 60%;
+        height: 50%;
+        padding-top: 100px;
+    }
+    #bloco11 > h2, #bloco33 > h2{
+        font-size: 40px;
+    }
+    #bloco22 > h2, #bloco44 > h2{
+        font-size: 40px;
+    }
+    #bloco22{
+        padding-top: 100px;
+    }
+    #bloco44{
+        text-align: center;
+    }
+    #bloco1 > img, #bloco3 > img, #bloco2 > img, #bloco4 > img{
+        width: 50%;
+    }
+    #bloco4 > img{
+        width: 100%;
+    }
+    #bloco5{
+        text-align: center;
+    }
+}
