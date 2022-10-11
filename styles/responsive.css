@@ -1,8 +1,123 @@
 @charset "UTF-8";
 
 
-@media screen and (min-width:400px) and (max-width: 768px){
+@media screen and (min-width:320px) and (max-width: 480px){
     nav > a{
         display: none;
     }
+    #buttom-02{
+        display: none;
+    }
+    #butom-entrar{
+        display: none;
+    }
 }
+@media screen and (min-width:480px) and (max-width:583px ){
+    nav > a{
+        display: none;
+    }
+    #buttom-02{
+        display: none;
+    }
+    #bloco0 > p{
+        width: 89%;
+    }
+    #butom-entrar{
+        display: none;
+    }
+    #bloco0 > img{
+        width: 480px;
+    }
+    #bloco1 > img, #bloco2 > img, #bloco3 > img, #bloco4 > img{
+        width: 450px;
+    }
+    #bloco1 > h2, #bloco2 > h2, #bloco3 > h2{
+        width: 90%;
+    }
+    #bloco5 > h1{
+        text-align: center;
+    }
+    #bloco5 > p > img{
+        display: none;
+
+    }
+}
+@media screen and (min-width:583px) and (max-width:767px){
+    nav > a{
+        display: none;
+    }
+    #buttom-02{
+        display: none;
+    }
+    #butom-entrar{
+        display: none;
+    }
+    #bloco0 > img{
+        width: 100%;
+    }
+    #bloco1 > img, #bloco2 > img, #bloco3 > img, #bloco4 > img{
+        width: 100%;
+    }
+    #bloco5 > h1{
+        text-align: center;
+    }
+    #bloco5 > img{
+        display: block;
+        width: 100%;
+    }
+    #bloco6 > h2{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    nav > a{
+        display: none;
+    }
+    #buttom-02{
+        display: none;
+    }
+    #butom-entrar{
+        display: none;
+    }
+    #bloco0 > img{
+        width: 100%;
+    }
+    #bloco1, #bloco3{
+        display: flex;
+    }
+    #bloco2{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #bloco2{
+        margin-top: 80px;
+        margin-bottom: 160px;
+    }
+    #bloco11{
+        width: 60%;
+        height: 50%;
+        padding-top: 100px;
+    }
+    #bloco11 > h2, #bloco33 > h2{
+        font-size: 40px;
+    }
+    #bloco22 > h2, #bloco44 > h2{
+        font-size: 40px;
+    }
+    #bloco22{
+        padding-top: 100px;
+    }
+    #bloco44{
+        text-align: center;
+    }
+    #bloco1 > img, #bloco3 > img, #bloco2 > img, #bloco4 > img{
+        width: 50%;
+    }
+    #bloco4 > img{
+        width: 100%;
+    }
+    #bloco5{
+        text-align: center;
+    }
+}
+        
