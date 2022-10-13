@@ -17,7 +17,7 @@
         display: none;
     }
     #buttom-02{
-        display: none;
+        display: block;
     }
     #bloco0 > p{
         width: 89%;

@@ -22,9 +22,12 @@ header > nav > img{
     width: 124px;
     margin-bottom: 40px;
 }
-#imgs{
+#imgs > picture > img{
     position: relative;
-    display: flex;
+    display: block;
+    width: 400px;
+    padding-top: 10px;
+    left: -93px;
 }
 #butom-entrar{
     display: block;
